@@ -1,0 +1,9 @@
+category: Python
+requires: cygwin python
+sdesc: "Pure Python Expect module"
+ldesc: "Pexpect makes Python a better tool for controlling other applications.
+
+Pexpect is a pure Python module for spawning child applications; controlling
+them; and responding to expected patterns in their output. Pexpect works like
+Don Libes' Expect. Pexpect allows your script to spawn a child application and
+control it as if a human were typing commands."

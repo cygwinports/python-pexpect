@@ -1,4 +1,4 @@
-pexpect
+python-pexpect
 -------------------------------------------
 Pexpect makes Python a better tool for controlling other applications.
 
@@ -8,49 +8,53 @@ Don Libes' Expect. Pexpect allows your script to spawn a child application and
 control it as if a human were typing commands.
 
 Runtime requirements:
-  cygwin-1.5.20-1 (>=20060604)
-  python-2.4.3-1
+  cygwin-1.5.24-2
+  python-2.5.1-1
 
 Canonical homepage:
   http://pexpect.sourceforge.net/
 
 Canonical download:
-  http://prdownloads.sourceforge.net/pexpect/
+  http://downloads.sourceforge.net/pexpect/
 
 -------------------------------------------
 
 Build instructions:
-  unpack pexpect-2.1-1-src.tar.bz2
+  unpack python-pexpect-2.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pexpect-2.1-1.cygport all
+  cygport ./python-pexpect-2.1-X.cygport all
 
 This will create:
-  /usr/src/pexpect-2.1-1-src.tar.bz2
-  /usr/src/pexpect-2.1-1.tar.bz2
+  /usr/src/python-pexpect-2.1-X-src.tar.bz2
+  /usr/src/python-pexpect-2.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/lib/python2.4/site-packages/fdpexpect.py
-  /usr/lib/python2.4/site-packages/fdpexpect.pyc
-  /usr/lib/python2.4/site-packages/fdpexpect.pyo
-  /usr/lib/python2.4/site-packages/pexpect.py
-  /usr/lib/python2.4/site-packages/pexpect.pyc
-  /usr/lib/python2.4/site-packages/pexpect.pyo
-  /usr/lib/python2.4/site-packages/pxssh.py
-  /usr/lib/python2.4/site-packages/pxssh.pyc
-  /usr/lib/python2.4/site-packages/pxssh.pyo
-  /usr/share/doc/Cygwin/pexpect-2.1.README
-  /usr/share/doc/pexpect-2.1/INSTALL
-  /usr/share/doc/pexpect-2.1/LICENSE
-  /usr/share/doc/pexpect-2.1/README
+  /usr/lib/python2.5/site-packages/fdpexpect.py
+  /usr/lib/python2.5/site-packages/fdpexpect.pyc
+  /usr/lib/python2.5/site-packages/fdpexpect.pyo
+  /usr/lib/python2.5/site-packages/pexpect-2.1-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/pexpect.py
+  /usr/lib/python2.5/site-packages/pexpect.pyc
+  /usr/lib/python2.5/site-packages/pexpect.pyo
+  /usr/lib/python2.5/site-packages/pxssh.py
+  /usr/lib/python2.5/site-packages/pxssh.pyc
+  /usr/lib/python2.5/site-packages/pxssh.pyo
+  /usr/share/doc/Cygwin/python-pexpect-2.1.README
+  /usr/share/doc/python-pexpect-2.1/INSTALL
+  /usr/share/doc/python-pexpect-2.1/LICENSE
+  /usr/share/doc/python-pexpect-2.1/README
 
 ------------------
 
 Port Notes:
+
+----- version 2.1-2 -----
+Rebuilt for python-2.5.
 
 ----- version 2.1-1 -----
 Version bump.

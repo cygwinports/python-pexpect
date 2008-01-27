@@ -1,5 +1,5 @@
 category: Python
-requires: cygwin python
+requires: python
 sdesc: "Pure Python Expect module"
 ldesc: "Pexpect makes Python a better tool for controlling other applications.
 

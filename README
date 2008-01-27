@@ -8,8 +8,7 @@ Don Libes' Expect. Pexpect allows your script to spawn a child application and
 control it as if a human were typing commands.
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  python-2.5.1-1
+  python-2.5.1-3
 
 Canonical homepage:
   http://pexpect.sourceforge.net/
@@ -20,38 +19,49 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack python-pexpect-2.1-X-src.tar.bz2
+  unpack python-pexpect-2.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./python-pexpect-2.1-X.cygport all
+  cygport ./python-pexpect-2.3-X.cygport all
 
 This will create:
-  /usr/src/python-pexpect-2.1-X-src.tar.bz2
-  /usr/src/python-pexpect-2.1-X.tar.bz2
+  /usr/src/python-pexpect-2.3-X-src.tar.bz2
+  /usr/src/python-pexpect-2.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
+  /usr/lib/python2.5/site-packages/ANSI.py
+  /usr/lib/python2.5/site-packages/ANSI.pyc
+  /usr/lib/python2.5/site-packages/ANSI.pyo
+  /usr/lib/python2.5/site-packages/FSM.py
+  /usr/lib/python2.5/site-packages/FSM.pyc
+  /usr/lib/python2.5/site-packages/FSM.pyo
   /usr/lib/python2.5/site-packages/fdpexpect.py
   /usr/lib/python2.5/site-packages/fdpexpect.pyc
   /usr/lib/python2.5/site-packages/fdpexpect.pyo
-  /usr/lib/python2.5/site-packages/pexpect-2.1-py2.5.egg-info
+  /usr/lib/python2.5/site-packages/pexpect-2.3-py2.5.egg-info
   /usr/lib/python2.5/site-packages/pexpect.py
   /usr/lib/python2.5/site-packages/pexpect.pyc
   /usr/lib/python2.5/site-packages/pexpect.pyo
   /usr/lib/python2.5/site-packages/pxssh.py
   /usr/lib/python2.5/site-packages/pxssh.pyc
   /usr/lib/python2.5/site-packages/pxssh.pyo
-  /usr/share/doc/Cygwin/python-pexpect-2.1.README
-  /usr/share/doc/python-pexpect-2.1/INSTALL
-  /usr/share/doc/python-pexpect-2.1/LICENSE
-  /usr/share/doc/python-pexpect-2.1/README
+  /usr/lib/python2.5/site-packages/screen.py
+  /usr/lib/python2.5/site-packages/screen.pyc
+  /usr/lib/python2.5/site-packages/screen.pyo
+  /usr/share/doc/python-pexpect-2.3/INSTALL
+  /usr/share/doc/python-pexpect-2.3/LICENSE
+  /usr/share/doc/python-pexpect-2.3/README
 
 ------------------
 
 Port Notes:
+
+----- version 2.3-1 -----
+Version bump.
 
 ----- version 2.1-2 -----
 Rebuilt for python-2.5.

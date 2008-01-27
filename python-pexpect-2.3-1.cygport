@@ -1,0 +1,8 @@
+ORIG_PN=pexpect
+
+inherit distutils
+
+DESCRIPTION="Pure Python Expect module"
+HOMEPAGE="http://pexpect.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${ORIG_PN}/${ORIG_PN}-${PV}.tar.gz"
+

@@ -1,5 +1,3 @@
-ORIG_PN=pexpect
-
 inherit distutils
 
 DESCRIPTION="Pure Python Expect module"

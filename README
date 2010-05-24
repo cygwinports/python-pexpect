@@ -8,7 +8,7 @@ Don Libes' Expect. Pexpect allows your script to spawn a child application and
 control it as if a human were typing commands.
 
 Runtime requirements:
-  python-2.5.4-10
+  python-2.6.5-1
 
 Canonical homepage:
   http://pexpect.sourceforge.net/
@@ -31,34 +31,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/python2.5/site-packages/ANSI.py
-  /usr/lib/python2.5/site-packages/ANSI.pyc
-  /usr/lib/python2.5/site-packages/ANSI.pyo
-  /usr/lib/python2.5/site-packages/FSM.py
-  /usr/lib/python2.5/site-packages/FSM.pyc
-  /usr/lib/python2.5/site-packages/FSM.pyo
-  /usr/lib/python2.5/site-packages/fdpexpect.py
-  /usr/lib/python2.5/site-packages/fdpexpect.pyc
-  /usr/lib/python2.5/site-packages/fdpexpect.pyo
-  /usr/lib/python2.5/site-packages/pexpect-2.3-py2.5.egg-info
-  /usr/lib/python2.5/site-packages/pexpect.py
-  /usr/lib/python2.5/site-packages/pexpect.pyc
-  /usr/lib/python2.5/site-packages/pexpect.pyo
-  /usr/lib/python2.5/site-packages/pxssh.py
-  /usr/lib/python2.5/site-packages/pxssh.pyc
-  /usr/lib/python2.5/site-packages/pxssh.pyo
-  /usr/lib/python2.5/site-packages/screen.py
-  /usr/lib/python2.5/site-packages/screen.pyc
-  /usr/lib/python2.5/site-packages/screen.pyo
-  /usr/share/doc/python-pexpect-2.3/INSTALL
-  /usr/share/doc/python-pexpect-2.3/LICENSE
-  /usr/share/doc/python-pexpect-2.3/README
-
-------------------
-
 Port Notes:
+
+----- version 2.3-11 -----
+Rebuilt for Python 2.6.
 
 ----- version 2.3-10 -----
 Initial release for Cygwin 1.7.

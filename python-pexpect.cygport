@@ -1,9 +1,8 @@
-ORIG_PN="pexpect-u"
-inherit python-distutils
+inherit python-wheel
 
 NAME="python-pexpect"
-VERSION=2.5.1
-RELEASE=2
+VERSION=4.2.1
+RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python Expect module"
 DESCRIPTION="Pexpect makes Python a better tool for controlling other applications.
@@ -11,3 +10,13 @@ Pexpect is a pure Python module for spawning child applications, controlling
 them, and responding to expected patterns in their output. Pexpect works like
 Don Libes' Expect. Pexpect allows your script to spawn a child application and
 control it as if a human were typing commands."
+
+ARCH=noarch
+
+src_install() {
+	cd ${B}
+	python_wheel_install
+
+	# incompatible with python2
+	rm -f ${D}${PYTHON2_SITELIB}/pexpect/async.py
+}

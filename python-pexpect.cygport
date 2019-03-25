@@ -1,7 +1,7 @@
 inherit python-wheel
 
 NAME="python-pexpect"
-VERSION=4.2.1
+VERSION=4.6.0
 RELEASE=1
 CATEGORY="Python"
 SUMMARY="Python Expect module"
@@ -18,5 +18,5 @@ src_install() {
 	python_wheel_install
 
 	# incompatible with python2
-	rm -f ${D}${PYTHON2_SITELIB}/pexpect/async.py
+	rm -f ${D}/usr/lib/python2.*/site-packages/pexpect/_async.py
 }
